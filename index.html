@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creative Gurus Academy | IT Skills for JHS Graduates</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <div class="logo-icon">CG</div>
+        <h1>Creative Gurus Academy</h1>
+      </div>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#program">Program</a>
+        <a href="#testimonials">Stories</a>
+      </div>
+      <button onclick="showEnrollmentModal()" class="btn-primary">Enroll Now</button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Turn Your JHS Vacation<br>Into a <span class="highlight">Tech Advantage</span></h2>
+      <p class="hero-subtitle">4-Week Online IT Mastery Program for JHS Graduates<br>Professional Certificate + In-Person Graduation</p>
+      <div class="hero-buttons">
+        <button onclick="showEnrollmentModal()" class="btn-primary big-btn">
+          <i class="fas fa-rocket"></i> Enroll Now - Limited Spots
+        </button>
+        <a href="#courses" class="btn-secondary">Explore Courses</a>
+      </div>
+      <div class="trust-badges">
+        <div><i class="fas fa-check"></i> Fully Online</div>
+        <div><i class="fas fa-check"></i> In-Person Graduation</div>
+        <div><i class="fas fa-check"></i> Mobile Money Payment</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="grid-2">
+        <div>
+          <h3>Bridging JHS to SHS with Real Digital Skills</h3>
+          <p class="about-text">Creative Gurus Academy equips young minds with practical IT skills that will help them excel in Senior High School and prepare them for future careers in technology.</p>
+          <ul class="features">
+            <li><span class="check">✔</span> Expert facilitators</li>
+            <li><span class="check">✔</span> Hands-on projects</li>
+            <li><span class="check">✔</span> Professional certification</li>
+            <li><span class="check">✔</span> Strong alumni network</li>
+          </ul>
+        </div>
+        <div class="image-container">
+          <img src="https://picsum.photos/id/201/800/600" alt="Students learning">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Courses Section -->
+  <section id="courses" class="section bg-light">
+    <div class="container">
+      <h3 class="section-title">Choose Your Track</h3>
+      <div class="courses-grid">
+        <div class="course-card">
+          <div class="course-icon">📊</div>
+          <h4>Microsoft Office Essentials</h4>
+          <p>Master Word, Excel & PowerPoint for academic excellence.</p>
+          <button onclick="showEnrollmentModal()" class="btn-outline">Select Track</button>
+        </div>
+        <div class="course-card">
+          <div class="course-icon">☁️</div>
+          <h4>Google Workspace Tools</h4>
+          <p>Learn Docs, Sheets, Slides and collaboration tools.</p>
+          <button onclick="showEnrollmentModal()" class="btn-outline">Select Track</button>
+        </div>
+        <div class="course-card">
+          <div class="course-icon">🤖</div>
+          <h4>AI Career Essentials</h4>
+          <p>Future-proof yourself with AI tools and prompt engineering.</p>
+          <button onclick="showEnrollmentModal()" class="btn-outline">Select Track</button>
+        </div>
+        <div class="course-card">
+          <div class="course-icon">🎨</div>
+          <h4>Graphic Design & Web Dev</h4>
+          <p>Create stunning designs and build your first website.</p>
+          <button onclick="showEnrollmentModal()" class="btn-outline">Select Track</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Program Structure -->
+  <section id="program" class="section">
+    <div class="container">
+      <h3 class="section-title">4-Week Transformation Journey</h3>
+      <div class="program-grid">
+        <div class="program-step">
+          <div class="step-number">1</div>
+          <h5>Week 1: Foundations</h5>
+          <p>Soft skills, digital literacy & mentorship</p>
+        </div>
+        <div class="program-step">
+          <div class="step-number">2</div>
+          <h5>Week 2-3: Core Training</h5>
+          <p>Deep dive into your chosen track</p>
+        </div>
+        <div class="program-step">
+          <div class="step-number">3</div>
+          <h5>Week 4: Projects</h5>
+          <p>Build portfolio & capstone project</p>
+        </div>
+        <div class="program-step highlight">
+          <div class="step-number">🎓</div>
+          <h5>Graduation Day</h5>
+          <p>In-person certificates, photos & celebration</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="section bg-light">
+    <div class="container">
+      <h3 class="section-title">What Our Students Say</h3>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <p>"I learned how to use Canva and built my own website. This program is the best decision I made this vacation!"</p>
+          <strong>— Akosua Mensah, Cohort 1</strong>
+        </div>
+        <div class="testimonial-card">
+          <p>"The AI course opened my eyes to the future. I can now use AI to help with my assignments."</p>
+          <strong>— Kwame Ofori, Cohort 1</strong>
+        </div>
+        <div class="testimonial-card">
+          <p>"The graduation day was amazing. I felt so proud receiving my certificate."</p>
+          <strong>— Afia Serwaa, Cohort 1</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="final-cta">
+    <div class="container">
+      <h3>Ready to Become a Creative Guru?</h3>
+      <p>Spots are limited. Join the next cohort and give yourself a head start.</p>
+      <button onclick="showEnrollmentModal()" class="btn-primary big-btn">
+        Enroll Today • GHS 200
+      </button>
+    </div>
+  </section>
+
+  <!-- Enrollment Modal -->
+  <div id="enrollmentModal" class="modal">
+    <div class="modal-content">
+      <button class="close-btn" onclick="hideEnrollmentModal()">×</button>
+      <h3>Enroll Now</h3>
+
+      <form id="enrollForm">
+        <div class="form-group">
+          <label>Full Name</label>
+          <input type="text" id="fullName" placeholder="e.g. Kofi Mensah" required>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>WhatsApp Number</label>
+            <input type="tel" id="phone" placeholder="e.g. 0241234567" required>
+          </div>
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" id="email" placeholder="e.g. kofi@email.com" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Choose Your Course Track</label>
+          <select id="course" required>
+            <option value="">Select Track</option>
+            <option value="Microsoft Office Essentials">Microsoft Office Essentials — GHS 200</option>
+            <option value="Google Workspace Tools">Google Workspace Tools — GHS 200</option>
+            <option value="AI Career Essentials">AI Career Essentials — GHS 200</option>
+            <option value="Graphic Design & Web Development">Graphic Design & Web Dev — GHS 200</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Preferred Cohort</label>
+          <select id="cohort" required>
+            <option value="">Select Cohort</option>
+            <option value="Cohort 1 (July)">Cohort 1 (July)</option>
+            <option value="Cohort 2 (August)">Cohort 2 (August)</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn-primary submit-btn" id="payButton">
+          Pay Now with Paystack
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Paystack v2 + your script -->
+  <script src="https://js.paystack.co/v2/inline.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
